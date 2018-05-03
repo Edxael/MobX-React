@@ -8,7 +8,6 @@ import Page1 from './01-Home';
 import Page2 from './02-Second';
  
 
-// @observer
 class Main extends React.Component{
     render() {
       return(
@@ -16,7 +15,7 @@ class Main extends React.Component{
           <HashRouter>
             <div>
 
-                <h1>Title 1</h1>
+                <h1>Change Name</h1>
         
                 <ul>
                     <li><Link to="/">Home</Link></li>

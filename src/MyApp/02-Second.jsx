@@ -1,14 +1,15 @@
 import React from 'react';
 import MyStore from './MobX/MobX'
 import { observer } from 'mobx-react'
+
  
 class Second extends React.Component {
   render() {
     return(
       <div>
-        <div>Second Page</div>
+        <h1>Second Page</h1>
         <br/>
-        <button onClick={ () => { MyStore.name = "Alexander" } } >Chage to Edxael</button>
+        <button onClick={ () => { MyStore.name = "Julius" } } >Chage to Julius</button>
       </div>
     )
   }
